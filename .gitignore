@@ -2,6 +2,7 @@
 src/data
 notes.txt
 __pycache__
+src/weights
 
 **/.terraform/*
 *.tfvars
