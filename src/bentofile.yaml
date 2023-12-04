@@ -1,0 +1,11 @@
+service: "service:svc"
+include:
+  - "service.py"
+python:
+  packages:
+    - pydantic
+    - torch
+    - torchtext
+
+models:
+  - en-fr_rnn_lstm_512:latest
