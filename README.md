@@ -2,7 +2,7 @@
 
 ## About
 
-- Sequence to sequence models (seq2seq) for translation
+- Sequence to sequence models (seq2seq) for language translation with Pytorch
   - bidirectional encoder-decoder LSTM
     - notebook at `src/en-fr_rnn.ipynb`
 - English to French translation using the Anki dataset
@@ -48,7 +48,7 @@ bentoctl operator install aws-sagemaker
 
 5. Initialize a bentoctl deployment. You may want to delete files including `src/deployment_config.yaml` and `src/main.tf` before doing so (so that they can be overwritten without any conflict).
 
-Note: If other operators are installed, running `bentoctl init` may not work as expected, specifically for Windows hosts. Remove all existing bentoctl operators by deleting the bentoctl folder at `~/bentoctl`. Then install the operator you'd like to work with.
+   Note: If other operators are installed, running `bentoctl init` may not work as expected, specifically for Windows hosts. Remove all existing bentoctl operators by deleting the bentoctl folder at `~/bentoctl`. Then install the operator you'd like to work with.
 
 ```
 bentoctl init
