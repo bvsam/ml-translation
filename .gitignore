@@ -2,3 +2,7 @@
 src/data
 notes.txt
 __pycache__
+
+**/.terraform/*
+*.tfvars
+*.tfvars.json

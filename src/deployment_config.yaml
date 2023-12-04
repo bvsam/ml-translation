@@ -1,0 +1,12 @@
+api_version: v1
+name: en-fr-translation-sagemaker
+operator:
+  name: aws-sagemaker
+template: terraform
+spec:
+  region: us-east-1
+  instance_type: ml.t2.medium
+  initial_instance_count: 1
+  timeout: 60
+  initial_sampling_percentage: 1
+env: {}
