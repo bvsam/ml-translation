@@ -27,6 +27,8 @@ pip install -r requirements.txt
 
 2. Run the `src/en-fr_rnn.ipynb` notebook to train the model and save its weights at `src/weights/en-fr_rnn_lstm_512.pt`. Modify `src/create_model.py` with any changes to the final model's architecture or the paths to its weights, if necessary.
 
+   Note: pretrained weights are currently not included in this repo due to file size limits imposed by Github
+
 3. Create the bentoml model
 
 ```
@@ -79,6 +81,7 @@ bentoctl destroy
 
 - Implement attention with the RNNs, or even a transformer
 - Try using a larger dataset, such as WMT 2014
+- Test and implement different methods to reduce text degeneration
 
 ## References
 
